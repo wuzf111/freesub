@@ -4,8 +4,31 @@
   },
   "outbounds": [
     {
+      "type": "vless",
+      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
+      "server": "84.22.150.39",
+      "server_port": 7443,
+      "uuid": "5cc814de-2bbb-4409-ad8c-ee841ca7bad1",
+      "tls": {
+        "enabled": true,
+        "server_name": "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev"
+        }
+      }
+    },
+    {
       "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
       "server": "dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn",
       "server_port": 443,
       "uuid": "d90e4077-bc7e-414d-a650-70bf1baae4d6",
@@ -16,7 +39,8 @@
         "insecure": false
       },
       "transport": {
-        "type": "ws"
+        "type": "ws",
+        "path": "/"
       }
     },
     {
@@ -24,14 +48,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
