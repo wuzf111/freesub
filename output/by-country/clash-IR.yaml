@@ -5,12 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇷 IR 01 - xiaohe
-  server: p1tun2.greewebservices.ir
-  port: 2060
+  server: 62.60.152.1
+  port: 56328
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: cVvgP0Bz69hsErPBvqKbwQ
+  type: vless
+  uuid: ce230b9c-0531-40da-bc3f-f27a8e059db1
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: iI1pc8k9-mIPHL2Dga-4n4h3KoBT68lN434nglpgm2M
+    short-id: f3a9c21e8b6d4571
+  servername: table.vkroom-it-service.xyz
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
