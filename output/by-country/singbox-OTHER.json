@@ -4,40 +4,32 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vmess",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.16.72.2",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.calmlunch.com",
-        "insecure": false
-      },
+      "server": "188.114.96.19",
+      "server_port": 80,
+      "uuid": "aed88e79-5762-4d2f-86fa-f438f32a7654",
+      "security": "auto",
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/",
         "headers": {
-          "Host": "www.calmlunch.com"
+          "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
         }
       }
     },
     {
-      "type": "trojan",
+      "type": "vmess",
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "104.16.72.2",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.calmlunch.com",
-        "insecure": false
-      },
+      "server": "188.114.96.19",
+      "server_port": 80,
+      "uuid": "aed88e79-5762-4d2f-86fa-f438f32a7654",
+      "security": "auto",
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/",
         "headers": {
-          "Host": "www.calmlunch.com"
+          "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
         }
       }
     },

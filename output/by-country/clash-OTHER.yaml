@@ -5,27 +5,31 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.16.72.2
-  port: 443
+  server: 188.114.96.19
+  port: 80
   udp: true
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: false
+  type: vmess
+  uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
+  alterId: 0
+  cipher: auto
   network: ws
   ws-opts:
-    path: /assignment
+    path: /
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
 - name: 🌐 其他地区 (Other) 02 - xiaohe
-  server: 104.16.72.2
-  port: 443
+  server: 188.114.96.19
+  port: 80
   udp: true
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: false
+  type: vmess
+  uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
+  alterId: 0
+  cipher: auto
   network: ws
   ws-opts:
-    path: /assignment
+    path: /
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
 proxy-groups:
 - name: PROXIES
   type: select
